@@ -1,6 +1,8 @@
  AOS.init({
- 	duration: 800,
- 	easing: 'slide'
+ 	duration: 1000,
+ 	easing: 'ease-in-out',
+ 	once: false,
+ 	mirror: true
  });
 
 (function($) {
